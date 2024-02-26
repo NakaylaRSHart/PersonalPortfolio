@@ -1,0 +1,53 @@
+.Navbar{
+    background-color: aliceblue;
+    height: 10%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.flex-column{
+    flex: 3;
+    padding: 10px;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+li{
+    color: black;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9OTebbirEJZnVxKnp6WNUUI55eeVN062RQ&usqp=CAU);
+    margin: auto;
+    flex-direction: column;
+}
+
+.Header{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.AboutMe{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    padding: 20px;
+}
+
+.ProjectShow{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
