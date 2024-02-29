@@ -51,8 +51,9 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: auto auto;
+    align-items: center;
     margin: 30px;
-    padding: 30px;
+    padding: 50px;
 }
 
 img{
@@ -89,7 +90,7 @@ img{
 }
 
 .aboutmepage{
-    margin: 20px;
+    margin: 20%;
     display: flex;
     flex-direction: row;
     align-items: center; 
@@ -136,3 +137,41 @@ input[type="submit"]:hover{
     flex-direction: row; */
 }
 
+.card{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+/* Still trying to get this fancy card to work */
+/* I used some of the code that Tyler had on his CSS Cheatsheet */
+.ClickableImage{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    border-radius: 12px;
+    /* transition: backround-color 0.3s ease, bordercolor 0.3 ease; */
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+
+ .ClickableImage:hover{
+    background-color: black;
+    border-color: black;
+ }
+
+.Resume{
+    display: flex;
+    justify-content: baseline;
+    /* margin: 10%; */
+    padding: 10px;
+}
+
+.Resume img{
+    height: 900px;
+    width: auto;
+}
