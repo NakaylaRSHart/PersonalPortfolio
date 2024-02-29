@@ -14,6 +14,14 @@
     color: goldenrod;
 }
 
+.flex-column:hover {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 10px;
+}
+
+
+
 
 li{
     color: black;
@@ -42,12 +50,22 @@ body{
     padding: 20px;
 }
 
-.ProjectShow{
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
+img{
+    height: 320px;
+    width: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    border: solid black;
+    border-radius: 12px;  
+}
+
+.mission{
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 100%;
 }
