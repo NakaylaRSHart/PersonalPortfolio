@@ -8,18 +8,37 @@
 </head>
 <body>
     <header>
-        <header>
-            <h1 class="Header"></h1>
+        
+        <h1 class="Header">Contact Me</h1>
     
-            <nav class="Navbar">
-                <a class="flex-column" href="index.html">Home</a>
-                <a class="flex-column" href="aboutme.html">About Me</a>
-                <a class="flex-column" href="projects.html"> Projects</a>
-                <a class="flex-column" href="//drive.google.com/file/d/1puebkygAmCezrN1vziZJ38-r431-I5A9/view?usp=drive_link">Resume</a> 
-                <a class="flex-column" href="Contact.html">Contact Me</a>
+        <nav class="Navbar">
+            <a class="flex-column" href="index.html">Home</a>
+            <a class="flex-column" href="aboutme.html">About Me</a>
+            <a class="flex-column" href="projects.html"> Projects</a>
+            <a class="flex-column" href="//drive.google.com/file/d/1puebkygAmCezrN1vziZJ38-r431-I5A9/view?usp=drive_link">Resume</a> 
+            <a class="flex-column" href="Contact.html">Contact Me</a>
         </nav>
-      </header>
+      
     </header>
+
+    <section class="contactform">
+        <form action="success.html" method="post" class="contact-form">
+            <h2>Contact Me</h2>
+            <label for="name">*Full Name:</label>
+            <input type="text" id="email" name="name" required>
+
+            <label for="email">*Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">*Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
+
     
 </body>
 </html>

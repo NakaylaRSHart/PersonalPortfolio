@@ -21,6 +21,11 @@
 }
 
 
+a:hover{
+    transition: 1s;
+    color: goldenrod;
+}
+
 
 
 li{
@@ -33,6 +38,7 @@ body{
     flex-direction: column;
 }
 
+
 .Header{
     background-color: black;
     color: aliceblue;
@@ -43,17 +49,17 @@ body{
     background-color: black;
     color: aliceblue;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px;
+    padding: 30px;
 }
 
 img{
     height: 320px;
     width: 320px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     border: solid black;
@@ -63,9 +69,70 @@ img{
 .mission{
     background-color: black;
     color: aliceblue;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
     justify-content: center;
     text-align: center;
     height: 200px;
+    width: 900px;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+}
+
+.indexPic{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+    padding: 20px;
+}
+
+.aboutmepage{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.contactform{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: goldenrod;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
+
+input[type="submit"]:hover{
+    background-color: goldenrod;
+    box-shadow: inset 0 0 10px;
+}
+
+.Footer{
+    /* display: flex;
+    flex-direction: row; */
+}
+
